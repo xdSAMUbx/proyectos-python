@@ -14,13 +14,13 @@ if decision == 1:
     print(f"El resultado de su suma es: {resultado}")
 elif decision == 2:
     resultado = numero1 - numero2
-    print(f"El resultado de su suma es: {resultado}")
+    print(f"El resultado de su resta es: {resultado}")
 elif decision == 3:
     resultado = numero1 * numero2
-    print(f"El resultado de su suma es: {resultado}")
+    print(f"El resultado de su multiplicación es: {resultado}")
 elif decision == 4:
     resultado = round(numero1 / numero2, 3)
-    print(f"El resultado de su suma es: {resultado}")
+    print(f"El resultado de su división es: {resultado}")
 else: 
     print("No ingreso ninguna opción valida, intente de neuvo")
 
